@@ -8,11 +8,11 @@ const Hero = () => {
   const { title, subtitle, btnText, btnIcon } = heroData;
   return (
     <section className="bg-hero bg-cover bg-center min-h-[40vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
-      <div className="container mx-auto">
+      <div className="container mx-auto min-h-[40vh] lg:h-full flex items-center justify-center xl:justify-center">
         {/* txt & btn */}
-        <div className="text-white">
+        <div className="text-white text-center lg:text-left lg:max-w-[640px]">
           {/* txt */}
-          <h1>{title}</h1>
+          <h1 className="h1">{title}</h1>
           <p>{subtitle}</p>
           {/* btn */}
           <div>
@@ -21,8 +21,6 @@ const Hero = () => {
               </button>
           </div>
         </div>
-        {/* outline text */}
-        <div className="hidden xl:flex absolute -bottom-2 right-0 left-0 before:content-outlineText"></div>
       </div>
     </section>
   );
