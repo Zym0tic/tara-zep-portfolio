@@ -47,7 +47,7 @@ export const socialData = [
 export const heroData = {
   title: 'TⒶRa ZⒺp',
   subtitle:
-    'Tattoos have their own unique power and magic. They not only beautify the body but also the psyche.',
+    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };
