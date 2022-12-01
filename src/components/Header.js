@@ -41,6 +41,10 @@ const Header = () => {
       <div className='xl:hidden absolute right-[5%] bg-dark text-white p-2 rounded-md cursor-pointer'>
         <TiThMenuOutline className='text-3xl' />
       </div>
+      {/* mav mobile */}
+      <div className='fixed bg-red-500 w-full h-full left-0 -z-10 transition-all duration-300'>
+        <NavMobile />
+      </div>
     </div>
     </header>;
 };
