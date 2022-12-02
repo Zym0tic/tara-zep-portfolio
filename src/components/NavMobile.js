@@ -6,7 +6,7 @@ import Socials from './Socials';
 
 
 const NavMobile = () => {
-  return <div>NavMobile</div>;
+  return <nav>NavMobile</nav>;
 };
 
 export default NavMobile;
