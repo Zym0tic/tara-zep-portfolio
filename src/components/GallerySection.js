@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 //import data
 import { galleryData } from '../data';
 // import photo album nad lightbox
@@ -19,7 +19,18 @@ const slides = galleryData.images.map(({original, width, height}) => ({
 }));
 
 const GallerySection = () => {
-  return <div>GallerySection</div>;
+  // index state
+  const [index, setIndex] = useState(-1);
+  //destructure gallery data
+  const { title, btnText, btnIcon, images } = galleryData;
+
+  return <section className='bg-pink-200 section relative mt-[40px] lg:mt-0'>
+    <div className='container mx-auto'>
+      <h2>{title}</h2>
+    </div>
+  {/* photo album */}
+  <PhotoAlbum layout='rows' photos={images}/> 
+    </section>;
 };
 
 export default GallerySection;
