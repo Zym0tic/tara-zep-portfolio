@@ -11,7 +11,7 @@ import GalleryImg8 from '../src/img/gallery/8.jpeg';
 import GalleryImg9 from '../src/img/gallery/9.jpeg';
 import GalleryImg10 from '../src/img/gallery/10.jpeg';
 import GalleryImg11 from '../src/img/gallery/11.jpeg';
-import GalleryImg12  from '../src/img/gallery/12.jpeg';
+import GalleryImg12 from '../src/img/gallery/12.jpeg';
 import GalleryImg13 from '../src/img/gallery/13.jpeg';
 import GalleryImg14 from '../src/img/gallery/14.jpeg';
 import GalleryImg15 from '../src/img/gallery/15.jpeg';
@@ -83,7 +83,7 @@ export const aboutData = {
 };
 
 export const galleryData = {
-  title: 'Check my gallery:',
+  title: 'Tattoo Gallery:',
   btnText: 'View all',
   btnIcon: <IoMdArrowForward />,
   images: [
