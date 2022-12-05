@@ -11,7 +11,12 @@ import { motion } from 'framer-motion';
 //import fadein
 import { fadeIn } from '../variants';
 
-
+//slides
+const slides = galleryData.images.map(({original, width, height}) => ({
+  src: original,
+  width,
+  height,
+}));
 
 const GallerySection = () => {
   return <div>GallerySection</div>;
