@@ -73,7 +73,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: 'My Story:',
+  title: 'About Me:',
   subtitle1:
     'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
   subtitle2:
@@ -234,12 +234,6 @@ export const galleryData = {
     {
       src: GalleryImg25,
       original: GalleryImg25,
-      width: 465,
-      height: 412,
-    },
-    {
-      src: GalleryImg26,
-      original: GalleryImg26,
       width: 465,
       height: 412,
     },
