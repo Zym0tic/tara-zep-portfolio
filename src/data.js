@@ -35,9 +35,7 @@ import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
-  IoLogoPinterest,
   IoLogoTwitter,
-  IoLogoYoutube,
 } from 'react-icons/io';
 
 export const headerData = {
@@ -58,10 +56,9 @@ export const navData = {
 
 export const socialData = [
   { href: '/', icon: <GrFacebookOption /> },
-  { href: '/', icon: <IoLogoInstagram /> },
-  { href: '/', icon: <IoLogoPinterest /> },
-  { href: '/', icon: <IoLogoTwitter /> },
-  { href: '/', icon: <IoLogoYoutube /> },
+  { href: 'https://www.instagram.com/no_fate_tattoo/', icon: <IoLogoInstagram /> },
+  { href: 'https://www.instagram.com/villantarazep/', icon: <IoLogoInstagram /> },
+  { href: 'https://twitter.com/tarazep666', icon: <IoLogoTwitter /> },
 ];
 
 export const heroData = {
@@ -271,41 +268,23 @@ export const testimonialData = [
 ];
 
 export const contactData = {
-  title: 'Get in touch with me:',
+  title: 'For Booking:',
   info: [
     {
-      title: 'LA office',
+      title: 'Email:',
       subtitle:
-        'In velit arcu posuere integer sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '784 Norman Street, Los Angeles',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 93 30493943',
-      },
+        'Please get in contact if you would like to book with me or work together',
+      // address: {
+      //   icon: <FaMapMarkerAlt />,
+      //   name: '784 Norman Street, Los Angeles',
+      // },
+      // phone: {
+      //   icon: <FaPhoneAlt />,
+      //   number: '+49 93 30493943',
+      // },
       email: {
         icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
-      },
-      link: 'Get location',
-    },
-    {
-      title: 'NYC office',
-      subtitle:
-        'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-      address: {
-        icon: <FaMapMarkerAlt />,
-        name: '1630 Elm Drive, New York City',
-      },
-      phone: {
-        icon: <FaPhoneAlt />,
-        number: '+49 34 36573355',
-      },
-      email: {
-        icon: <FaEnvelope />,
-        address: 'contact@yourcompany.com',
+        address: 'tarazeptattoos@gmail.com',
       },
       link: 'Get location',
     },

@@ -10,13 +10,13 @@ const Contact = () => {
   //destructure contact data
   const { title, info, form } = contactData;
   return (
-    <section className="bg-pink-200 section">
+    <section className="section">
       <div className="container mx-auto">
         <div>
           {/* text */}
           <div>
             {/* title */}
-            <h2>{title}</h2>
+            <h2 className="h2 max-w-[490px]">{title}</h2>
             {/* info items */}
             {info.map((item, index) => {
               //destructure item
@@ -24,25 +24,15 @@ const Contact = () => {
               return (
                 <div key={index}>
                   {/* title */}
-                  <div>{title}</div>
+                  <div className="font-primary uppercase font-medium text-xl mb-3">{title}</div>
                   {/* subtitle */}
-                  <div>{subtitle}</div>
+                  <div className="mb-6 text-[#333] leading-[187%] tracking-[0.02em]">{subtitle}</div>
                   {/* address, phone and email */}
-                  <div>
-                    {/* address */}
-                    <div>
-                    <div>{address.icon}</div>
-                    <div>{address.name}</div>
-                    </div>
-                    {/* phone */}
-                    <div>
-                    <div>{phone.icon}</div>
-                    <div>{phone.number}</div>
-                    </div>
+                  <div className='flex flex-col gap-y-3 mb-8'>
                     {/* email */}
-                    <div>
+                    <div className="flex items-center gap-[10px]">
                     <div>{email.icon}</div>
-                    <div>{email.address}</div>
+                    <div className="font-medium">{email.address}</div>
                     </div>
                   </div>
                 </div>
