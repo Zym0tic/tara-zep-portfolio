@@ -25,11 +25,8 @@ import GalleryImg22 from '../src/img/gallery/22.jpeg';
 import GalleryImg23 from '../src/img/gallery/23.jpeg';
 import GalleryImg24 from '../src/img/gallery/24.jpeg';
 import GalleryImg25 from '../src/img/gallery/25.jpeg';
-import GalleryImg26 from '../src/img/gallery/26.jpeg';
 import GalleryImg27 from '../src/img/gallery/27.jpeg';
-import QuoteImg from '../src/img/testimonial/quote.svg';
 // import icons
-import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
 import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
@@ -55,7 +52,6 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: '/', icon: <GrFacebookOption /> },
   { href: 'https://www.instagram.com/no_fate_tattoo/', icon: <IoLogoInstagram /> },
   { href: 'https://www.instagram.com/villantarazep/', icon: <IoLogoInstagram /> },
   { href: 'https://twitter.com/tarazep666', icon: <IoLogoTwitter /> },
@@ -249,23 +245,6 @@ export const interviewData = {
   btnText: 'Watch it now',
   btnIcon: <FaPlay />,
 };
-
-export const testimonialData = [
-  {
-    quoteImg: QuoteImg,
-    message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
-  },
-  {
-    quoteImg: QuoteImg,
-    message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
-  },
-];
 
 export const contactData = {
   title: 'For Booking:',

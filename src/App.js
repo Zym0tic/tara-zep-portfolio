@@ -6,7 +6,6 @@ import Header from './components/Header';
 import About from './components/About';
 import GallerySection from './components/GallerySection';
 import Interview from './components/Interview';
-import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
@@ -18,7 +17,6 @@ const App = () => {
       <Hero />
       <About />
       <GallerySection />
-      <Testimonial />
       <Interview />
       <Contact />
       <Footer />
