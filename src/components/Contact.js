@@ -26,7 +26,7 @@ const Contact = () => {
             {/* info items */}
             {info.map((item, index) => {
               //destructure item
-              const { title, subtitle, address, phone, email, link } = item;
+              const { title, subtitle, email } = item;
               return (
                 <div key={index}>
                   {/* title */}
