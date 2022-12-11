@@ -22,7 +22,7 @@ const GallerySection = () => {
   // index state
   const [index, setIndex] = useState(-1);
   //destructure gallery data
-  const { title, btnText, btnIcon, images } = galleryData;
+  const { title, images } = galleryData;
 
   return (
     <section className="bg-[#f9f9f9] section relative mt-[40px] lg:mt-0" name="gallery">
@@ -57,19 +57,6 @@ const GallerySection = () => {
           index={index}
           close={() => setIndex(-1)}
         />
-      </motion.div>
-      {/* btn */}
-      <motion.div
-        variants={fadeIn("up")}
-        initial="hidden"
-        whileInView={"show"}
-        viewport={{ once: false, amount: 0.2 }}
-        className="flex justify-center"
-      >
-        <button className="btn btn-lg btn-dark">
-          {" "}
-          {btnText} <div className="text-xl"> {btnIcon} </div>{" "}
-        </button>
       </motion.div>
     </section>
   );
