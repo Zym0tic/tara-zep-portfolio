@@ -42,12 +42,12 @@ export const headerData = {
 export const navData = {
   items: [
     { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
+    { href: 'about', name: 'About' },
+    { href: 'gallery', name: 'Gallery' },
+    { href: 'interview', name: 'Interview' },
+    { href: 'articles', name: 'Articles' },
     { href: '/', name: 'Webstore' },
-    { href: '/', name: 'Contact' },
+    { href: 'contact', name: 'Contact' },
   ],
 };
 
