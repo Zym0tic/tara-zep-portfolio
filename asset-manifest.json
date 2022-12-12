@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tara-zep-portfolio/static/css/main.64faf28a.css",
-    "main.js": "/tara-zep-portfolio/static/js/main.0bdd01da.js",
+    "main.css": "/tara-zep-portfolio/static/css/main.ed889da7.css",
+    "main.js": "/tara-zep-portfolio/static/js/main.48d037a4.js",
     "static/media/25.jpeg": "/tara-zep-portfolio/static/media/25.dfb5700b831915430027.jpeg",
     "static/media/bg.jpg": "/tara-zep-portfolio/static/media/bg.0aa24e5ded32ad6597c9.jpg",
     "static/media/15.jpeg": "/tara-zep-portfolio/static/media/15.abbcce622804a74fbe62.jpeg",
@@ -32,11 +32,11 @@
     "static/media/24.jpeg": "/tara-zep-portfolio/static/media/24.00efafa236ae810c4ee6.jpeg",
     "static/media/logo.svg": "/tara-zep-portfolio/static/media/logo.272a9fff30dd597e0aa2784ab9704941.svg",
     "index.html": "/tara-zep-portfolio/index.html",
-    "main.64faf28a.css.map": "/tara-zep-portfolio/static/css/main.64faf28a.css.map",
-    "main.0bdd01da.js.map": "/tara-zep-portfolio/static/js/main.0bdd01da.js.map"
+    "main.ed889da7.css.map": "/tara-zep-portfolio/static/css/main.ed889da7.css.map",
+    "main.48d037a4.js.map": "/tara-zep-portfolio/static/js/main.48d037a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.64faf28a.css",
-    "static/js/main.0bdd01da.js"
+    "static/css/main.ed889da7.css",
+    "static/js/main.48d037a4.js"
   ]
 }
