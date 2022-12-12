@@ -7,9 +7,6 @@ import { navData } from "../data";
 import Socials from "./Socials";
 
 
-
-
-
 const NavMobile = () => {
   //destructure nav data
   const { items } = navData;
@@ -23,7 +20,7 @@ const NavMobile = () => {
                 to={item.href}
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={-70}
                 duration={500}
                 className="text-2xl font-primary cursor-pointer uppercase"
               >
@@ -39,5 +36,6 @@ const NavMobile = () => {
     </nav>
   );
 };
+
 
 export default NavMobile;

@@ -6,7 +6,7 @@ import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 import Socials from "./Socials";
 //import icons
-import { TiThMenuOutline } from "react-icons/ti";
+import { TiThMenu } from "react-icons/ti";
 
 const Header = () => {
   //destructure header data
@@ -41,10 +41,11 @@ const Header = () => {
           onClick={() => setNavMobile(!navMobile)}
           className="xl:hidden absolute right-[5%] bg-white text-dark p-2 rounded-md cursor-pointer"
         >
-          <TiThMenuOutline className="text-3xl" />
+          <TiThMenu className="text-3xl" />
         </div>
         {/* nav mobile */}
         <div
+          onClick={() => setNavMobile(!navMobile)}
           className={`${navMobile ? "max-h-full" : "max-h-0"} ${
             isActive
               ? "top-[100px] lg:top-[110px]"
