@@ -36,7 +36,13 @@ const Header = () => {
         <div className="hidden xl:flex">
           <Nav />
         </div>
-       
+        {/* nav menu btn hidden desktop*/}
+        <div
+          onClick={() => setNavMobile(!navMobile)}
+          className="xl:hidden absolute right-[5%] bg-white text-dark p-2 rounded-md cursor-pointer"
+        >
+          <TiThMenu className="text-3xl" />
+        </div>
         {/* nav mobile */}
         <div
           className={`${navMobile ? "max-h-full" : "max-h-0"} ${
