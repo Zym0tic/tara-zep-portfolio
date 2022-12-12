@@ -6,6 +6,10 @@ import { navData } from "../data";
 //import components
 import Socials from "./Socials";
 
+
+
+
+
 const NavMobile = () => {
   //destructure nav data
   const { items } = navData;
@@ -14,7 +18,7 @@ const NavMobile = () => {
       <ul className="flex flex-col justify-center items-center gap-y-6 py-6 mb-8">
         {items.map((item, index) => {
           return (
-            <li key={index}>
+            <li  key={index}>
               <Link
                 to={item.href}
                 spy={true}
@@ -22,7 +26,6 @@ const NavMobile = () => {
                 offset={50}
                 duration={500}
                 className="text-2xl font-primary cursor-pointer uppercase"
-                href={item.href}
               >
                 {item.name}
               </Link>

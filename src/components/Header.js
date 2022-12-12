@@ -7,7 +7,6 @@ import NavMobile from "./NavMobile";
 import Socials from "./Socials";
 //import icons
 import { TiThMenuOutline } from "react-icons/ti";
-import { FaSortNumericDown } from "react-icons/fa";
 
 const Header = () => {
   //destructure header data
@@ -37,10 +36,10 @@ const Header = () => {
         <div className="hidden xl:flex">
           <Nav />
         </div>
-        {/* nav menu btn hidden dsktop*/}
+        {/* nav menu btn hidden desktop*/}
         <div
           onClick={() => setNavMobile(!navMobile)}
-          className="xl:hidden absolute right-[5%] bg-dark text-white p-2 rounded-md cursor-pointer"
+          className="xl:hidden absolute right-[5%] bg-white text-dark p-2 rounded-md cursor-pointer"
         >
           <TiThMenuOutline className="text-3xl" />
         </div>
@@ -49,7 +48,7 @@ const Header = () => {
           className={`${navMobile ? "max-h-full" : "max-h-0"} ${
             isActive
               ? "top-[100px] lg:top-[110px]"
-              : "top-[120px] lo:top-[150px]"
+              : "top-[120px] lg:top-[150px]"
           } fixed bg-white w-full h-full left-0 -z-10 transition-all duration-300`}
         >
           <NavMobile />
