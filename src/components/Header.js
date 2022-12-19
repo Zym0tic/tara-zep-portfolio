@@ -47,11 +47,11 @@ const Header = () => {
         <div
           className={`${navMobile ? "max-h-full" : "max-h-0"} ${
             isActive
-              ? "top-[100px] lg:top-[110px]"
-              : "top-[120px] lg:top-[150px]"
-          } fixed bg-white w-full h-full left-0 -z-10 transition-all duration-300`}
-        >
-          <NavMobile />
+            ? "top-[100px] lg:top-[110px]"
+            : "top-[120px] lg:top-[150px]"
+          } fixed bg-white w-full h-full left-0 -z-10 transition-all duration-300`}        
+          >
+          <NavMobile closeNavMobile={navMobile => setNavMobile(!navMobile)}/> 
         </div>
   {/* social icons hidden show on desktop */}
   <div className="hidden xl:flex">

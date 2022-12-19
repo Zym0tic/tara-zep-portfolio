@@ -7,7 +7,7 @@ import { navData } from "../data";
 import Socials from "./Socials";
 
 
-const NavMobile = () => {
+const NavMobile = (props) => {
   //destructure nav data
   const { items } = navData;
   return (
@@ -17,6 +17,7 @@ const NavMobile = () => {
           return (
             <li  key={index}>
               <Link
+                onClick={() => props.closeNavMobile(true)}
                 to={item.href}
                 spy={true}
                 smooth={true}
