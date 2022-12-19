@@ -29,7 +29,7 @@ import GalleryImg27 from '../src/img/gallery/27.jpeg';
 // import icons
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
-import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
   IoLogoTwitter,
@@ -41,11 +41,10 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
+    { href: 'hero', name: 'Home' },
     { href: 'about', name: 'About' },
     { href: 'gallery', name: 'Gallery' },
-    { href: 'interview', name: 'Interview' },
-    { href: 'articles', name: 'Articles' },
+    { href: 'press', name: 'Press' },
     { href: '/', name: 'Webstore' },
     { href: 'contact', name: 'Contact' },
   ],
@@ -239,12 +238,18 @@ export const galleryData = {
   ],
 };
 
-export const interviewData = {
+export const pressData = {
   title:
-    '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
-  btnText: 'Watch it now',
-  btnIcon: <FaPlay />,
-};
+    'Press and Interviews:',
+    items:[
+      {
+        href: 'https://cvltnation.com/inspiration-is-the-vibration-tara-zep/', subtitle:'Cvlt Nation Interview'
+      },
+      {
+        href: 'https://open.spotify.com/episode/1dIi8a6LWcNki0Z1lCDmMt?si=xCu8_wXaTkWn1Qg8c1CJEQ', subtitle: 'Podcast Interview with Taylor Wilde “Wilde on with Taylor Wilde” '
+      },
+    ],
+  };
 
 export const contactData = {
   title: 'For Booking:',

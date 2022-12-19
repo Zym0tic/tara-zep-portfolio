@@ -19,7 +19,7 @@ const Hero = () => {
   //hero data destructured
   const { title, subtitle, btnText, btnIcon } = heroData;
   return (
-    <section className="bg-hero bg-cover bg-center min-h-[100vh] lg:h-[948px] bg-no-repeat relative mt-[120px] lg:mt-[150px]">
+    <section className="bg-hero bg-cover bg-center min-h-[100vh] lg:h-[100vh] bg-no-repeat relative mt-[120px] lg:mt-[150px]" name="hero">
       <motion.div
         variants={container}
         initial="hidden"

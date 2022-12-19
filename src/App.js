@@ -5,7 +5,7 @@ import Hero from './components/Hero';
 import Header from './components/Header';
 import About from './components/About';
 import GallerySection from './components/GallerySection';
-import Interview from './components/Interview';
+import Press from './components/press';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Copyright from './components/Copyright';
@@ -17,7 +17,7 @@ const App = () => {
       <Hero />
       <About />
       <GallerySection />
-      <Interview />
+      <Press />
       <Contact />
       <Footer />
       <Copyright />
