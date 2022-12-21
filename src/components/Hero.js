@@ -29,7 +29,7 @@ const Hero = () => {
         {/* txt & btn */}
         <div className="text-white text-center lg:text-left lg:max-w-[640px]">
           {/* txt */}
-          <motion.h1 variants={fadeIn("down")} className="h1">
+          <motion.h1 variants={fadeIn("down")} className="h1 pt-10">
             {title}
           </motion.h1>
           <motion.p
@@ -44,7 +44,7 @@ const Hero = () => {
               to="about"
               spy={true}
               smooth={true}
-              offset={-70}
+              offset={-50}
               duration={500}
             >
               <button className="btn btn-sm lg:btn-lg btn-outline mx-auto lg:mx-0">

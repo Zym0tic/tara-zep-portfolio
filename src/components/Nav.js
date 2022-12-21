@@ -14,7 +14,11 @@ const Nav = () => {
           return (
             <li key={index}>
               <Link
-                to={item.href} spy={true} smooth={true} offset={50} duration={500}
+                to={item.href}
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
                 className="link hover:border-b-2 hover:border-dark transition duration-300 cursor-pointer"
               >
                 {item.name}
