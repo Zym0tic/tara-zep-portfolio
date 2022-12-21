@@ -4,7 +4,7 @@ import { socialData } from '../data';
 
 const Socials = () => {
   return ( 
-  <ul className='flex justify-center items-center gap-x-[30px] pb-20'>
+  <ul className='flex justify-center items-center gap-x-[30px] pb-20 lg:pb-0'>
     {socialData.map((item, index) => {
       return (
       <li key={index}>

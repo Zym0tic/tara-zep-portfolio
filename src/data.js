@@ -51,8 +51,8 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: 'https://www.instagram.com/no_fate_tattoo/', icon: <IoLogoInstagram /> },
-  { href: 'https://www.instagram.com/villantarazep/', icon: <IoLogoInstagram /> },
+  { href: 'https://www.instagram.com/no_fate_tattoo/', icon: <IoLogoInstagram />},
+  { href: 'https://www.instagram.com/thevillantarazep/', icon: <IoLogoInstagram />},
   { href: 'https://twitter.com/tarazep666', icon: <IoLogoTwitter /> },
 ];
 
