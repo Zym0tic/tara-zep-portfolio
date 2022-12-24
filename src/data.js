@@ -59,7 +59,7 @@ export const socialData = [
 export const heroData = {
   title: 'TⒶRa ZⒺp',
   subtitle:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    'Tara Zep is a multimedia artist, with over 10 years experience tattooing professionally around the globe. With a background in modelling and acting.',
   btnText: 'read more',
   btnIcon: <IoMdArrowForward />,
 };
@@ -67,9 +67,9 @@ export const heroData = {
 export const aboutData = {
   title: 'About Me:',
   subtitle1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    'Tara Zep is a multimedia artist, with over 10 years experience tattooing professionally around the globe. With a background in modelling and acting. Tara has been published internationally, working with the likes of Matt Barnes (photographer) The Deftones (band) covers with Tattoo Art International and Evil magazine.',
   subtitle2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
+    'In Spring of 2021 Zep started training at professional wrestling academy, Lionsgate Dojo in Vancouver Canada. Her trainers include: Nicole Mathews, Artemis Spencer Tony Baroni and Cat Power. She currently manages PWN Tag Team Champions “State of Emergency” and looks forward to her evolution in the wrestling biz. ',
   btnText: 'Know more',
   btnIcon: <IoMdArrowForward />,
 };
