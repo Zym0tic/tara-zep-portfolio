@@ -28,7 +28,7 @@ import GalleryImg25 from '../src/img/gallery/25.jpeg';
 import GalleryImg27 from '../src/img/gallery/27.jpeg';
 // import icons
 import { IoMdArrowForward } from 'react-icons/io';
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
   IoLogoTwitter,
@@ -294,12 +294,12 @@ export const footerData = {
     },
   },
   links: {
-    title: 'Useful links',
+    title: 'links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
+      { href: 'http://www.mattbarnesphotography.com/about', name: 'Matt Barnes Photography' },
+      { href: 'https://www.tattoolifestore.com/international-tattoo-magazines.html', name: 'Tattoo Life Magazine' },
+      { href: 'https://www.blackheartcult.com.br/revistas-e-livros-ct-31d308?fbclid=PAAaaABgRs-5uAHIJ0TrLYInujVi3Ay99TClOrmVRgyTyUEHzVo_dCrGrZHJI', name: 'Black Heart Cult' },
+      { href: '/', name: 'Webstore' },
     ],
   },
 };
