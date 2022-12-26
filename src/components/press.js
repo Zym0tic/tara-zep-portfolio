@@ -38,7 +38,7 @@ const Press = () => {
                   <a
                     href={href}
                     target="_blank"
-                    className="link hover:border-b-2 hover:border-white transition duration-300 cursor-pointer"
+                    className="link hover:border-b-2 hover:border-white transition duration-300 cursor-pointer text-shadow: 1px 1px 2px rgb(43, 43, 43);"
                   >
                     {subtitle}
                   </a>

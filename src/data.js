@@ -28,7 +28,6 @@ import GalleryImg25 from '../src/img/gallery/25.jpeg';
 import GalleryImg27 from '../src/img/gallery/27.jpeg';
 // import icons
 import { IoMdArrowForward } from 'react-icons/io';
-import { FiSend } from 'react-icons/fi';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import {
   IoLogoInstagram,
@@ -65,7 +64,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: 'About Me:',
+  title: 'About:',
   subtitle1:
     'Tara Zep is a multimedia artist, with over 10 years experience tattooing professionally around the globe. With a background in modelling and acting. Tara has been published internationally, working with the likes of Matt Barnes (photographer) The Deftones (band) covers with Tattoo Art International and Evil magazine.',
   subtitle2:
@@ -248,6 +247,9 @@ export const pressData = {
       {
         href: 'https://open.spotify.com/episode/1dIi8a6LWcNki0Z1lCDmMt?si=xCu8_wXaTkWn1Qg8c1CJEQ', subtitle: 'Podcast Interview with Taylor Wilde “Wilde on with Taylor Wilde” '
       },
+      {
+        href: 'https://m.youtube.com/watch?v=woAcXSMyCEw', subtitle: 'Deftones - You\'ve Seen The Butcher (Music Video)'
+      },
     ],
   };
 
@@ -257,7 +259,7 @@ export const contactData = {
     {
       title: 'Email:',
       subtitle:
-        'Please get in contact if you would like to book with me or work together',
+        'Please get in contact if you would like to book with Tara or work together',
       // address: {
       //   icon: <FaMapMarkerAlt />,
       //   name: '784 Norman Street, Los Angeles',
@@ -283,20 +285,12 @@ export const contactData = {
 
 export const footerData = {
   about: {
-    title: 'About void tattoo',
+    title: 'About Tara Zep',
     subtitle:
-      'Sit amet, consectetur nun in velit arcu posuere integer. Adipiscing elit duis porttitor massa tellus',
-    address: {
-      icon: <FaMapMarkerAlt />,
-      name: '1630 Elm Drive, New York City',
-    },
-    phone: {
-      icon: <FaPhoneAlt />,
-      number: '+49 34 36573355',
-    },
+      'Tara Zep is a multimedia artist, with over 10 years experience tattooing professionally around the globe. With a background in modelling and acting',
     email: {
       icon: <FaEnvelope />,
-      address: 'contact@yourcompany.com',
+      address: 'tarazeptattoos@gmail.com',
     },
   },
   links: {
@@ -307,23 +301,5 @@ export const footerData = {
       { href: '/', name: 'My services' },
       { href: '/', name: 'Contact me' },
     ],
-  },
-  program: {
-    title: 'Working Time',
-    items: [
-      { name: 'Mon - Tue / Appointment' },
-      { name: 'Wed - Fri / 10:00 - 9:00pm' },
-      { name: 'Sat / 10:00 - 6:00pm' },
-      { name: 'Sun / no work on this day' },
-    ],
-  },
-  newsletter: {
-    title: 'Newsletter',
-    subtitle:
-      'Elit duis porttitor massa tellus nun in velit arcu posuere integer.',
-    form: {
-      placeholder: 'Your email address',
-      icon: <FiSend />,
-    },
   },
 };
