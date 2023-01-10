@@ -26,6 +26,9 @@ const Nav = () => {
             </li>
           );
         })}
+        <li className="link hover:border-b-2 hover:border-dark transition duration-300 cursor-pointer">
+          <a href="https://tarazep.myshopify.com/" target="_blank" rel="noopener noreferrer">webstore</a>
+        </li>
       </ul>
     </nav>
   );

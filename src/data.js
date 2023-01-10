@@ -44,7 +44,7 @@ export const navData = {
     { href: 'about', name: 'About' },
     { href: 'gallery', name: 'Gallery' },
     { href: 'press', name: 'Press' },
-    { href: '/', name: 'Webstore' },
+    // { href: 'https://www.tarazep.myshopify.com/', name: 'Webstore' },
     { href: 'contact', name: 'Contact' },
   ],
 };
@@ -260,14 +260,6 @@ export const contactData = {
       title: 'Email:',
       subtitle:
         'Please get in contact if you would like to book with Tara or work together',
-      // address: {
-      //   icon: <FaMapMarkerAlt />,
-      //   name: '784 Norman Street, Los Angeles',
-      // },
-      // phone: {
-      //   icon: <FaPhoneAlt />,
-      //   number: '+49 93 30493943',
-      // },
       email: {
         icon: <FaEnvelope />,
         address: 'tarazeptattoos@gmail.com',

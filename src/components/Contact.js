@@ -14,7 +14,7 @@ const Contact = () => {
   //form submission
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: 'Luke',
+    to_name: 'Tara',
     message: '',
     reply_to: '',
   });
