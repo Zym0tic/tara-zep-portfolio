@@ -1,7 +1,7 @@
 {
   "name": "tara-zep-site",
   "version": "0.1.0",
-  "homepage": "https://zym0tic.github.io/tara-zep-portfolio",
+  "homepage": "https://tarazep.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
