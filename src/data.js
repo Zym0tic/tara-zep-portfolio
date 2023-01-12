@@ -44,7 +44,6 @@ export const navData = {
     { href: 'about', name: 'About' },
     { href: 'gallery', name: 'Gallery' },
     { href: 'press', name: 'Press' },
-    // { href: 'https://www.tarazep.myshopify.com/', name: 'Webstore' },
     { href: 'contact', name: 'Contact' },
   ],
 };
@@ -291,7 +290,7 @@ export const footerData = {
       { href: 'http://www.mattbarnesphotography.com/about', name: 'Matt Barnes Photography' },
       { href: 'https://www.tattoolifestore.com/international-tattoo-magazines.html', name: 'Tattoo Life Magazine' },
       { href: 'https://www.blackheartcult.com.br/revistas-e-livros-ct-31d308?fbclid=PAAaaABgRs-5uAHIJ0TrLYInujVi3Ay99TClOrmVRgyTyUEHzVo_dCrGrZHJI', name: 'Black Heart Cult' },
-      { href: '/', name: 'Webstore' },
+      { href: 'https://tarazep.myshopify.com/', name: 'Webstore' },
     ],
   },
 };
