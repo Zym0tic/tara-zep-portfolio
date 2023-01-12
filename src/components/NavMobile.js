@@ -30,7 +30,7 @@ const NavMobile = (props) => {
             </li>
           );
         })}
-        <li className="link hover:border-b-2 hover:border-dark transition duration-300 cursor-pointer">
+        <li className="text-2xl font-primary cursor-pointer uppercase">
           <a href="https://tarazep.myshopify.com/" target="_blank" rel="noopener noreferrer">webstore</a>
         </li>
       </ul>
